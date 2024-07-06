@@ -1,10 +1,13 @@
 body {
   background: #c8bde1;
   font-family: "Noto Sans", sans-serif;
+  background-image: Url(clouds.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 a {
-  color: #8f64fb;
+  color: #701770;
 }
 
 .weather-app {
@@ -96,9 +99,39 @@ main {
   color: rgb(66, 24, 66);
 }
 
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.weather-forecast-date {
+  text-align: center;
+  color: rgba(39, 33, 66, 9.4);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.weather-forecast-icon {
+  font-size: 38px;
+  text-align: center;
+}
+
+.weather-forecast-temperatures {
+  text-align: center;
+  color: #900934;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.weather-forecast-temperature {
+  padding: 0 10px;
+}
+
 footer {
   text-align: center;
   padding-top: 15px;
-  color: rgba(225, 4, 96, 0.4);
+  color: rgba(0, 0, 0, 0.6);
   border-top: 1px solid #701770;
 }
